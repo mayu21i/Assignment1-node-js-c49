@@ -18,8 +18,7 @@ you forEach() when you want to perform an action on every array element and don'
 you for  of when you need more control over the loop like using break or continue.
 
 -Q2 :
-
-
+Hoisting is JavaScript's behavior of processing declarations before executing the code. var variables are hoisted and initialized with undefined. TDZ is the period where let and const variables have been hoisted but cannot be accessed before their declaration, causing a ReferenceError.
 
 -Q3 :
 == compares values after type conversion if necessary, while === compares both value and type without type conversion. === is generally more strict and predictable.
