@@ -78,8 +78,8 @@ console.log(divisibleBy3and5(15));
 
 //Q9
 
-let sqareOfNum = num => num * num ;
-console.log(sqareOfNum(5));
+let squareOfNum = num => num * num ;
+console.log(squareOfNum(5));
 
 //Q10
 let person = {
@@ -102,6 +102,17 @@ console.log(sum(1, 2, 3, 4, 5));
 
 //Q12
 
+function getSuccess(){
+    return new Promise((resolve) => {
+        setTimeout(() =>{
+            resolve("Success");
+        } , 3000);
+    });
+}
+
+getSuccess().then(message =>{
+    console.log(message);
+});
 
 //Q13
 let arr = [1, 3, 7, 2, 4] ;

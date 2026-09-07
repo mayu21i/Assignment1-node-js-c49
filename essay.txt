@@ -14,18 +14,25 @@ for (let num of arr) {
     console.log(num);
 }
 
-you forEach() when you want to perform an action on every array element and don't need to stop the loop early.
-you for  of when you need more control over the loop like using break or continue.
+you use forEach() when you want to perform an action on every array element and don't need to stop the loop early.
+you use for  of when you need more control over the loop like using break or continue.
 
 -Q2 :
 Hoisting is JavaScript's behavior of processing declarations before executing the code. var variables are hoisted and initialized with undefined. TDZ is the period where let and const variables have been hoisted but cannot be accessed before their declaration, causing a ReferenceError.
+Hoisting:
+
+console.log(x);
+var x = 10; // undefined
+
+TDZ :
+console.log(y);
+let y = 10; // ReferenceError
 
 -Q3 :
 == compares values after type conversion if necessary, while === compares both value and type without type conversion. === is generally more strict and predictable.
 
 -Q4 :
-
-
+try-catch is used to handle errors in JavaScript. The try block contains code that may cause an error, while the catch block handles the error. It is important in async operations because promises and API requests can fail, and try-catch with async/await allows us to handle these errors without crashing the program.
 
 -Q5 :
 Type conversion: When the programmer manually changes a value from one data type to another.
